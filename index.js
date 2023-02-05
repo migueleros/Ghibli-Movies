@@ -1,3 +1,7 @@
+document.onload(() => {
+    window.alert('The api i was using is unfortunately down :( site might not work as expected.')
+})
+
 let ghibliEndPoint = `https://ghibliapi.herokuapp.com/films`
 const movies_container = document.getElementById('movies_container')
 const movie_details = document.querySelector('.movie_details_section')
